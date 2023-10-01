@@ -61,7 +61,11 @@ npx hardhat run scripts/getBalance.js --network swisstronik
 
 **Response:**
 
-- Before running the `transfer.js` script: 100,000,000,000,000,000,000
-- After running the `transfer.js` script: 90,000,000,000,000,000,000
+- Token balance before running the transfer.js script: 100,000,000,000,000,000,000
+- Token balance after running the transfer.js script: 90,000,000,000,000,000,000
+
+The Token balance is represented in the following format, indicating 100 tokens before running the script and 90 tokens after running the script.
+
+![Token Balance Format](tokenBalanceFormat.png)
 
 The difference in the number of tokens confirms that 10 ERC20 tokens were successfully transferred to the address `0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1`.
